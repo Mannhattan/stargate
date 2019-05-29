@@ -1,4 +1,8 @@
 # stargate
+[![GitHub issues](https://img.shields.io/github/issues/Mannhattan/stargate.svg)](https://github.com/Mannhattan/stargate/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Mannhattan/stargate.svg)](https://github.com/Mannhattan/stargate/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Mannhattan/stargate.svg)](https://github.com/Mannhattan/stargate/blob/master/LICENSE)
+
 This mini reverse proxy docker image (based on nginx.alpine) redirects all the web traffic to specified endpoints providing SSL encryption, gzip response compression and HTTP/2 request encoding along the way. Response is equipped with certain headers for improved security. All requests over http (port 80) will be redirected to https (port 443). Load balancing will be added soon!
 
 ## Installation
